@@ -24,7 +24,7 @@ The Objective-C version of [onevcat's DebuggableContext](https://github.com/onev
 
 2. Register at proper time. 
 
-```objc
+    ```objc
     - (void)viewDidLoad {
         [super viewDidLoad];
         REGISTER_DEBUG(self);
